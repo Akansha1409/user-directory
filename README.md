@@ -1,5 +1,5 @@
 # 👥 User Directory Application
-[![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-blue?style=for-the-badge&logo=vercel)](YOUR_DEPLOYMENT_LINK_HERE)
+[![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://user-directory1.vercel.app/)
 ✨ A responsive frontend application built with React and Tailwind CSS.
 
 A clean **User Directory Application** designed to evaluate frontend engineering skills. This application allows users to view, search, and add users using the **JSONPlaceholder API**. It features a modern UI with glassmorphism effects, real-time filtering, and local data persistence.
