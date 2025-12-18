@@ -37,3 +37,14 @@ Follow these steps to get the project running on your local machine.
 ```bash
 git clone [https://github.com/YOUR_USERNAME/user-directory.git](https://github.com/YOUR_USERNAME/user-directory.git)
 cd user-directory
+```
+**2. Install dependencies
+```bash
+npm install
+```
+3.Start the development server
+```bash
+npm run dev
+```
+The application will typically start at http://localhost:5173
+
