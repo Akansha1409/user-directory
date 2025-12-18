@@ -38,13 +38,19 @@ Follow these steps to get the project running on your local machine.
 git clone [https://github.com/YOUR_USERNAME/user-directory.git](https://github.com/YOUR_USERNAME/user-directory.git)
 cd user-directory
 ```
-**2. Install dependencies
+**2. Install dependencies**
 ```bash
 npm install
 ```
-3.Start the development server
+3.Start the development server**
 ```bash
 npm run dev
 ```
 The application will typically start at http://localhost:5173
 
+---
+
+## 📝 Assumptions
+- **Frontend-Only:** The "Add User" feature is frontend-only.
+- **Persistence:** New users are stored in `localStorage` to persist across refreshes since the API does not actually save them.
+- **Styling:** Tailwind CSS was chosen to ensure a clean, maintainable, and responsive layout within the 24-hour time limit.
