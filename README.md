@@ -54,3 +54,17 @@ The application will typically start at http://localhost:5173
 - **Frontend-Only:** The "Add User" feature is frontend-only.
 - **Persistence:** New users are stored in `localStorage` to persist across refreshes since the API does not actually save them.
 - **Styling:** Tailwind CSS was chosen to ensure a clean, maintainable, and responsive layout within the 24-hour time limit.
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── AddUserForm.jsx    # Form component with validation logic
+│   ├── UserCard.jsx       # Reusable card component for displaying user info
+│   └── UserModal.jsx      # Modal component for viewing full user details
+├── App.jsx                # Main controller (State, Search, Sort logic)
+├── main.jsx               # Application entry point
+└── index.css              # Global styles and Tailwind configuration
