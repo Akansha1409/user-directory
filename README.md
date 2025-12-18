@@ -1,21 +1,39 @@
-# User Directory Application
+# 👥 User Directory Application
+[![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-blue?style=for-the-badge&logo=vercel)](YOUR_DEPLOYMENT_LINK_HERE)
+✨ A responsive frontend application built with React and Tailwind CSS.
 
-A responsive frontend application built with React and Tailwind CSS that allows users to view, search, and add users using the JSONPlaceholder API.
+A clean **User Directory Application** designed to evaluate frontend engineering skills. This application allows users to view, search, and add users using the **JSONPlaceholder API**. It features a modern UI with glassmorphism effects, real-time filtering, and local data persistence.
 
-## Features Implemented
-- **Fetch Users:** Loads data from `jsonplaceholder.typicode.com`.
-- **Search:** Real-time filtering by Name or Email.
-- **Details View:** Modal popup with address and company details.
-- **Add User:** Form with validation (Email regex, required fields).
-- **Persistence:** Newly added users are saved to LocalStorage.
-- **Sorting:** Toggle between A-Z and Z-A.
-- **Responsive:** Layout adapts to mobile and desktop.
+---
 
-## Setup & Run
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
-3. Run `npm run dev` to start the local development server.
+## ✨ Features Implemented
+- ⚡ **Fetch Users:** Loads data dynamically from `jsonplaceholder.typicode.com`.
+- 🔍 **Search:** Real-time filtering by **Name** or **Email**.
+- 📄 **Details View:** Modal popup displaying address and company details without navigating away.
+- ➕ **Add User:** Custom form with validation (Email regex, required fields).
+- 💾 **Persistence:** Newly added users are saved to `localStorage` to persist across refreshes.
+- 🔽 **Sorting:** Toggle between **A-Z** and **Z-A** alphabetical order.
+- 📱 **Responsive:** Layout adapts seamlessly to mobile, tablet, and desktop screens.
 
-## Assumptions
-- The "Add User" feature is frontend-only.
-- New users are stored in `localStorage` to persist across refreshes since the API does not actually save them.
+---
+
+## 📊 Tech Stack
+
+| **Technology** | **Usage** |
+|----------------|-----------|
+| React (Vite) | Frontend Framework |
+| Tailwind CSS | Styling & Responsiveness |
+| JavaScript (ES6+) | Application Logic |
+| JSONPlaceholder | Mock API Data |
+| LocalStorage | Data Persistence |
+
+---
+
+## 🚀 Setup & Run
+
+Follow these steps to get the project running on your local machine.
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/YOUR_USERNAME/user-directory.git](https://github.com/YOUR_USERNAME/user-directory.git)
+cd user-directory
