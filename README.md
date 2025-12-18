@@ -1,16 +1,21 @@
-# React + Vite
+# User Directory Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive frontend application built with React and Tailwind CSS that allows users to view, search, and add users using the JSONPlaceholder API.
 
-Currently, two official plugins are available:
+## Features Implemented
+- **Fetch Users:** Loads data from `jsonplaceholder.typicode.com`.
+- **Search:** Real-time filtering by Name or Email.
+- **Details View:** Modal popup with address and company details.
+- **Add User:** Form with validation (Email regex, required fields).
+- **Persistence:** Newly added users are saved to LocalStorage.
+- **Sorting:** Toggle between A-Z and Z-A.
+- **Responsive:** Layout adapts to mobile and desktop.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup & Run
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm run dev` to start the local development server.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Assumptions
+- The "Add User" feature is frontend-only.
+- New users are stored in `localStorage` to persist across refreshes since the API does not actually save them.
