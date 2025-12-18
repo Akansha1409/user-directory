@@ -68,3 +68,14 @@ src/
 ├── App.jsx                # Main controller (State, Search, Sort logic)
 ├── main.jsx               # Application entry point
 └── index.css              # Global styles and Tailwind configuration
+
+---
+
+## 🔮 Future Improvements / Scope
+
+🚀 **Pagination** – To handle larger datasets efficiently.
+🌑 **Dark Mode** – Toggle between light and dark themes.
+✏️ **Edit/Delete User** – Full CRUD capabilities.
+🧪 **Unit Testing** – Adding Jest/React Testing Library for robustness.
+
+---
