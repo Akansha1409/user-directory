@@ -68,7 +68,7 @@ src/
 ├── App.jsx                # Main controller (State, Search, Sort logic)
 ├── main.jsx               # Application entry point
 └── index.css              # Global styles and Tailwind configuration
-
+```
 ---
 
 ## 🔮 Future Improvements / Scope
