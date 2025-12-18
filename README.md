@@ -73,9 +73,9 @@ src/
 
 ## 🔮 Future Improvements / Scope
 
-🚀 **Pagination** – To handle larger datasets efficiently.
-🌑 **Dark Mode** – Toggle between light and dark themes.
-✏️ **Edit/Delete User** – Full CRUD capabilities.
-🧪 **Unit Testing** – Adding Jest/React Testing Library for robustness.
+- 🚀 **Pagination** – To handle larger datasets efficiently.
+- 🌑 **Dark Mode** – Toggle between light and dark themes.
+- ✏️ **Edit/Delete User** – Full CRUD capabilities.
+- 🧪 **Unit Testing** – Adding Jest/React Testing Library for robustness.
 
 ---
